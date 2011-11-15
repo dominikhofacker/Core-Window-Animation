@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D97374A214507A8B005BB7DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97374A114507A8B005BB7DA /* Cocoa.framework */; };
+		D97374AC14507A8B005BB7DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D97374AA14507A8B005BB7DA /* InfoPlist.strings */; };
+		D97374AE14507A8B005BB7DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97374AD14507A8B005BB7DA /* main.m */; };
+		D97374B214507A8B005BB7DA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D97374B014507A8B005BB7DA /* Credits.rtf */; };
+		D97374B514507A8B005BB7DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97374B414507A8B005BB7DA /* AppDelegate.m */; };
+		D97374B814507A8B005BB7DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97374B614507A8B005BB7DA /* MainMenu.xib */; };
+		D97374C014507A8B005BB7DA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97374BF14507A8B005BB7DA /* SenTestingKit.framework */; };
+		D97374C114507A8B005BB7DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97374A114507A8B005BB7DA /* Cocoa.framework */; };
+		D97374C914507A8B005BB7DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D97374C714507A8B005BB7DA /* InfoPlist.strings */; };
+		D97374CC14507A8B005BB7DA /* CoreWindowAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D97374CB14507A8B005BB7DA /* CoreWindowAnimationTests.m */; };
+		D97374D814507AE0005BB7DA /* AnimationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D97374D714507AE0005BB7DA /* AnimationWindow.m */; };
+		D97374E614509C89005BB7DA /* Music.icns in Resources */ = {isa = PBXBuildFile; fileRef = D97374E514509C89005BB7DA /* Music.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D97374C214507A8B005BB7DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D973749414507A8B005BB7DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D973749C14507A8B005BB7DA;
+			remoteInfo = CoreWindowAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D973749D14507A8B005BB7DA /* CoreWindowAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreWindowAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97374A114507A8B005BB7DA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D97374A414507A8B005BB7DA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D97374A514507A8B005BB7DA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D97374A614507A8B005BB7DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D97374A914507A8B005BB7DA /* CoreWindowAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreWindowAnimation-Info.plist"; sourceTree = "<group>"; };
+		D97374AB14507A8B005BB7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D97374AD14507A8B005BB7DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D97374AF14507A8B005BB7DA /* CoreWindowAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreWindowAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		D97374B114507A8B005BB7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D97374B314507A8B005BB7DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D97374B414507A8B005BB7DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D97374B714507A8B005BB7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D97374BE14507A8B005BB7DA /* CoreWindowAnimationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreWindowAnimationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97374BF14507A8B005BB7DA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D97374C614507A8B005BB7DA /* CoreWindowAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreWindowAnimationTests-Info.plist"; sourceTree = "<group>"; };
+		D97374C814507A8B005BB7DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D97374CA14507A8B005BB7DA /* CoreWindowAnimationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreWindowAnimationTests.h; sourceTree = "<group>"; };
+		D97374CB14507A8B005BB7DA /* CoreWindowAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreWindowAnimationTests.m; sourceTree = "<group>"; };
+		D97374D514507ABF005BB7DA /* CGSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSPrivate.h; sourceTree = "<group>"; };
+		D97374D614507AE0005BB7DA /* AnimationWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationWindow.h; sourceTree = "<group>"; };
+		D97374D714507AE0005BB7DA /* AnimationWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWindow.m; sourceTree = "<group>"; };
+		D97374E514509C89005BB7DA /* Music.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Music.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D973749A14507A8B005BB7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97374A214507A8B005BB7DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97374BA14507A8B005BB7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97374C014507A8B005BB7DA /* SenTestingKit.framework in Frameworks */,
+				D97374C114507A8B005BB7DA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D973749214507A8B005BB7DA = {
+			isa = PBXGroup;
+			children = (
+				D97374E514509C89005BB7DA /* Music.icns */,
+				D97374A714507A8B005BB7DA /* CoreWindowAnimation */,
+				D97374C414507A8B005BB7DA /* CoreWindowAnimationTests */,
+				D97374A014507A8B005BB7DA /* Frameworks */,
+				D973749E14507A8B005BB7DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D973749E14507A8B005BB7DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D973749D14507A8B005BB7DA /* CoreWindowAnimation.app */,
+				D97374BE14507A8B005BB7DA /* CoreWindowAnimationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D97374A014507A8B005BB7DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97374A114507A8B005BB7DA /* Cocoa.framework */,
+				D97374BF14507A8B005BB7DA /* SenTestingKit.framework */,
+				D97374A314507A8B005BB7DA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D97374A314507A8B005BB7DA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D97374A414507A8B005BB7DA /* AppKit.framework */,
+				D97374A514507A8B005BB7DA /* CoreData.framework */,
+				D97374A614507A8B005BB7DA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D97374A714507A8B005BB7DA /* CoreWindowAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D97374D514507ABF005BB7DA /* CGSPrivate.h */,
+				D97374B314507A8B005BB7DA /* AppDelegate.h */,
+				D97374B414507A8B005BB7DA /* AppDelegate.m */,
+				D97374D614507AE0005BB7DA /* AnimationWindow.h */,
+				D97374D714507AE0005BB7DA /* AnimationWindow.m */,
+				D97374B614507A8B005BB7DA /* MainMenu.xib */,
+				D97374A814507A8B005BB7DA /* Supporting Files */,
+			);
+			path = CoreWindowAnimation;
+			sourceTree = "<group>";
+		};
+		D97374A814507A8B005BB7DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97374A914507A8B005BB7DA /* CoreWindowAnimation-Info.plist */,
+				D97374AA14507A8B005BB7DA /* InfoPlist.strings */,
+				D97374AD14507A8B005BB7DA /* main.m */,
+				D97374AF14507A8B005BB7DA /* CoreWindowAnimation-Prefix.pch */,
+				D97374B014507A8B005BB7DA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D97374C414507A8B005BB7DA /* CoreWindowAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				D97374CA14507A8B005BB7DA /* CoreWindowAnimationTests.h */,
+				D97374CB14507A8B005BB7DA /* CoreWindowAnimationTests.m */,
+				D97374C514507A8B005BB7DA /* Supporting Files */,
+			);
+			path = CoreWindowAnimationTests;
+			sourceTree = "<group>";
+		};
+		D97374C514507A8B005BB7DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D97374C614507A8B005BB7DA /* CoreWindowAnimationTests-Info.plist */,
+				D97374C714507A8B005BB7DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D973749C14507A8B005BB7DA /* CoreWindowAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97374CF14507A8B005BB7DA /* Build configuration list for PBXNativeTarget "CoreWindowAnimation" */;
+			buildPhases = (
+				D973749914507A8B005BB7DA /* Sources */,
+				D973749A14507A8B005BB7DA /* Frameworks */,
+				D973749B14507A8B005BB7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreWindowAnimation;
+			productName = CoreWindowAnimation;
+			productReference = D973749D14507A8B005BB7DA /* CoreWindowAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D97374BD14507A8B005BB7DA /* CoreWindowAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D97374D214507A8B005BB7DA /* Build configuration list for PBXNativeTarget "CoreWindowAnimationTests" */;
+			buildPhases = (
+				D97374B914507A8B005BB7DA /* Sources */,
+				D97374BA14507A8B005BB7DA /* Frameworks */,
+				D97374BB14507A8B005BB7DA /* Resources */,
+				D97374BC14507A8B005BB7DA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D97374C314507A8B005BB7DA /* PBXTargetDependency */,
+			);
+			name = CoreWindowAnimationTests;
+			productName = CoreWindowAnimationTests;
+			productReference = D97374BE14507A8B005BB7DA /* CoreWindowAnimationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D973749414507A8B005BB7DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Privat;
+			};
+			buildConfigurationList = D973749714507A8B005BB7DA /* Build configuration list for PBXProject "CoreWindowAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D973749214507A8B005BB7DA;
+			productRefGroup = D973749E14507A8B005BB7DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D973749C14507A8B005BB7DA /* CoreWindowAnimation */,
+				D97374BD14507A8B005BB7DA /* CoreWindowAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D973749B14507A8B005BB7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97374AC14507A8B005BB7DA /* InfoPlist.strings in Resources */,
+				D97374B214507A8B005BB7DA /* Credits.rtf in Resources */,
+				D97374B814507A8B005BB7DA /* MainMenu.xib in Resources */,
+				D97374E614509C89005BB7DA /* Music.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97374BB14507A8B005BB7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97374C914507A8B005BB7DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D97374BC14507A8B005BB7DA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D973749914507A8B005BB7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97374AE14507A8B005BB7DA /* main.m in Sources */,
+				D97374B514507A8B005BB7DA /* AppDelegate.m in Sources */,
+				D97374D814507AE0005BB7DA /* AnimationWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D97374B914507A8B005BB7DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D97374CC14507A8B005BB7DA /* CoreWindowAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D97374C314507A8B005BB7DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D973749C14507A8B005BB7DA /* CoreWindowAnimation */;
+			targetProxy = D97374C214507A8B005BB7DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D97374AA14507A8B005BB7DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97374AB14507A8B005BB7DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D97374B014507A8B005BB7DA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97374B114507A8B005BB7DA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D97374B614507A8B005BB7DA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97374B714507A8B005BB7DA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D97374C714507A8B005BB7DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D97374C814507A8B005BB7DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D97374CD14507A8B005BB7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D97374CE14507A8B005BB7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D97374D014507A8B005BB7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreWindowAnimation/CoreWindowAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CoreWindowAnimation/CoreWindowAnimation-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D97374D114507A8B005BB7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreWindowAnimation/CoreWindowAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CoreWindowAnimation/CoreWindowAnimation-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D97374D314507A8B005BB7DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreWindowAnimation.app/Contents/MacOS/CoreWindowAnimation";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreWindowAnimation/CoreWindowAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CoreWindowAnimationTests/CoreWindowAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D97374D414507A8B005BB7DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreWindowAnimation.app/Contents/MacOS/CoreWindowAnimation";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreWindowAnimation/CoreWindowAnimation-Prefix.pch";
+				INFOPLIST_FILE = "CoreWindowAnimationTests/CoreWindowAnimationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D973749714507A8B005BB7DA /* Build configuration list for PBXProject "CoreWindowAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97374CD14507A8B005BB7DA /* Debug */,
+				D97374CE14507A8B005BB7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97374CF14507A8B005BB7DA /* Build configuration list for PBXNativeTarget "CoreWindowAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97374D014507A8B005BB7DA /* Debug */,
+				D97374D114507A8B005BB7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D97374D214507A8B005BB7DA /* Build configuration list for PBXNativeTarget "CoreWindowAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97374D314507A8B005BB7DA /* Debug */,
+				D97374D414507A8B005BB7DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D973749414507A8B005BB7DA /* Project object */;
+}
