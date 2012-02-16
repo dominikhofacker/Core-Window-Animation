@@ -8,5 +8,5 @@ Click [here](http://www.youtube.com/ccoding "Very nice Xcode tutorials are on my
 
 ***http://www.youtube.com/ccoding***
 
-### Thank you to every supporter - 100 subcribers!
+### Thank you to every supporter - 100 subscribers!
 
